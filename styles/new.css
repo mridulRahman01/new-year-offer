@@ -1,0 +1,86 @@
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+/* text styles */
+
+.header {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 484px;
+  position: absolute;
+  gap: 5px;
+  color: rgb(255, 255, 255);
+}
+.sub-title {
+  font-size: 32px;
+  line-height: 40px;
+  width: 259px;
+  height: 40px;
+  margin-top: 177px;
+  margin-left: 186px;
+  margin-right: 187px;
+}
+.text-primary {
+  width: 632px;
+  height: 190px;
+  font-size: 72px;
+  line-height: 95px;
+}
+.bg {
+  width: 1320px;
+  height: 600px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 140px;
+  margin-left: 140px;
+  background-size: cover;
+  background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+    url("../images/Banner\ Image.png");
+}
