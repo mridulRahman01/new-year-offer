@@ -45,6 +45,29 @@
   font-weight: 900;
   font-style: italic;
 }
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+.inter-small {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+.inter-smaller {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
 /* text styles */
 
 .header {
@@ -66,13 +89,45 @@
   margin-top: 177px;
   margin-left: 186px;
   margin-right: 187px;
+  margin-bottom: 16px;
 }
 .text-primary {
   width: 632px;
   height: 190px;
   font-size: 72px;
   line-height: 95px;
+  margin-top: 0px;
 }
+.second-header {
+  width: 383px;
+  height: 107px;
+  margin-right: 680px;
+  margin-left: 680px;
+  margin-top: 120px;
+  font-size: 88px;
+  line-height: 107px;
+  text-align: center;
+  color: rgb(255, 0, 0);
+}
+.header-description {
+  width: 397px;
+  height: 29px;
+  font-size: 24px;
+  color: rgb(255, 0, 0);
+  margin-top: 48px;
+  margin-left: 680px;
+  margin-right: 680px;
+}
+.second-title {
+  width: 410px;
+  height: 58px;
+  font-size: 48px;
+  margin-top: 16px;
+  margin-right: 680px;
+  margin-left: 680px;
+  color: rgb(7, 2, 17);
+}
+/* background image style */
 .bg {
   width: 1320px;
   height: 600px;
@@ -83,4 +138,12 @@
   background-size: cover;
   background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
     url("../images/Banner\ Image.png");
+  border-radius: 16px;
+}
+.image-bg {
+  width: 802.9px;
+  height: 500px;
+  margin-left: 399px;
+  margin-right: 499px;
+  margin-bottom: 142px;
 }
