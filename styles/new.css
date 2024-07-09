@@ -67,6 +67,13 @@
   font-style: normal;
   font-variation-settings: "slnt" 0;
 }
+.inter-medium {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
 
 /* text styles */
 
@@ -127,6 +134,83 @@
   margin-left: 680px;
   color: rgb(7, 2, 17);
 }
+.texts {
+  margin-top: 127px;
+  margin-left: 126px;
+  margin-right: 552px;
+  margin-bottom: 298px;
+}
+.midnight-party {
+  width: 642px;
+  height: 176px;
+  font-size: 64px;
+  line-height: 88px;
+  letter-spacing: 11%;
+  text-align: left;
+
+  margin-left: 20.15%;
+  margin-right: 20.21%;
+  margin-bottom: 24px;
+
+  color: rgb(255, 255, 255);
+}
+.midnight-description {
+  width: 697px;
+  height: 60px;
+  margin-top: 0px;
+  margin-left: 20.15%;
+  margin-right: 357px;
+  margin-bottom: 48px;
+  font-size: 18px;
+  text-align: left;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+}
+.join {
+  margin-left: 25.15%;
+  /* margin-bottom: 142px; */
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.fonts {
+  /* width: 900px;
+  height: 168px; */
+  font-size: 20px;
+  margin-top: 200px;
+  margin-left: 385px;
+  margin-right: 388px;
+  margin-bottom: 48px;
+  text-align: center;
+  text-transform: capitalize;
+  justify-content: center;
+  position: absolute;
+}
+h2 span {
+  color: rgb(255, 0, 0);
+}
+/* button style */
+.btn {
+  display: flex;
+  margin-top: 200px;
+}
+
+.page4 {
+  width: 1320px;
+  height: 482px;
+  border-radius: 16px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  margin-top: ;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 120px;
+  justify-content: center;
+  text-align: center;
+}
 /* background image style */
 .bg {
   width: 1320px;
@@ -146,4 +230,43 @@
   margin-left: 399px;
   margin-right: 499px;
   margin-bottom: 142px;
+}
+
+.page3 {
+  border-radius: 16px;
+  width: 1320px;
+  height: 600px;
+  margin-left: 10.61%;
+  margin-right: 10.61%;
+  margin-bottom: 120px;
+  margin-top: 120px;
+  background: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+    url("../images/Vectorrr.png"),
+    radial-gradient(
+      49.5% 49.5% at 50% 50%,
+      rgb(105, 11, 2) 27%,
+      rgb(143, 73, 65) 39%,
+      rgb(177, 128, 121) 51%,
+      rgb(205, 173, 168) 62%,
+      rgb(227, 209, 205) 73%,
+      rgb(242, 234, 231) 84%,
+      rgb(252, 250, 246) 93%,
+      rgb(255, 255, 252) 100%
+    ),
+    url("../images/Group\ 70.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new-year {
+  position: absolute;
+  margin-right: 108.67px;
+  margin-left: 862.17px;
+  margin-top: 68.12px;
+  margin-bottom: 67.23px;
+}
+.page5 {
+  justify-content: space-around;
+  display: flex;
 }
